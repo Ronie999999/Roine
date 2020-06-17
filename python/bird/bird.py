@@ -17,6 +17,7 @@ bird_up = pygame.image.load("images/bird_wing_up.png")
 bird_down = pygame.image.load("images/bird_wing_down.png")
 pipe_body = pygame.image.load("images/pipe_body.png")
 pipe_end = pygame.image.load("images/pipe_end.png")
+ground = pygame.image.load("images/ground.png")
 pipes = [[200,4]]
 bird = [40, height // 2]
 
@@ -80,6 +81,7 @@ def main():
             
         
         game_screen.blit(background, (0, 0))
+        game_screen.blit(ground, (0, height - 35))
         draw_bird(bird[0], bird[1])
         draw_pipes()
         bird[1] += gravity
