@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="homework6" targetName="homework" />
+      <config projectName="homework6" targetName="homework6" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5c5caf1-09f6-4c72-aed1-6ed99e18004f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1ZsR3hBgiLH76MyrycumwqUa9g5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="CMake Application.homework6">
+    <configuration name="homework" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework6" TARGET_NAME="homework" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework6" RUN_TARGET_NAME="homework">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="homework6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework6" TARGET_NAME="homework6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework6" RUN_TARGET_NAME="homework6">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.homework" />
+      <item itemvalue="CMake Application.homework6" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5c5caf1-09f6-4c72-aed1-6ed99e18004f" name="Default Changelist" comment="" />
+      <created>1585625617366</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585625617366</updated>
+      <workItem from="1585625619316" duration="9047000" />
+      <workItem from="1585807333739" duration="325000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="156" key="GridCell.Tab.0.bottom" timestamp="1585807658871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585807658871" />
+    <state width="1493" height="156" key="GridCell.Tab.0.center" timestamp="1585807658871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585807658871" />
+    <state width="1493" height="156" key="GridCell.Tab.0.left" timestamp="1585807658870">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585807658870" />
+    <state width="1493" height="156" key="GridCell.Tab.0.right" timestamp="1585807658871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585807658871" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585807333404">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585807333404" />
+  </component>
+</project>

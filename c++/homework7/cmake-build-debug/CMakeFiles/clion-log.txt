@@ -1,0 +1,4 @@
+D:\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\c++\homework7
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/c++/homework7/cmake-build-debug

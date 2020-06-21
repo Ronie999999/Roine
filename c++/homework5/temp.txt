@@ -1,0 +1,35 @@
+# Define p1 ######
+
+CPoint contstructor with default value(0,0) is called.
+
+# Define p2 ######
+
+CPoint contstructor with default value(0,0) is called.
+
+# Define rect1 ######
+
+CPoint contstructor with default value(0,0) is called.
+
+CPoint contstructor with default value(0,0) is called.
+
+CRectangle default contstructor is called.
+
+# Define rect2 ######
+CPoint copy contstructor is called.
+CPoint copy contstructor is called.
+CPoint copy contstructor is called.
+CPoint copy contstructor is called.
+CRectangle contstructor with (CPoint,CPoint) is called.
+# Define rect3 ######
+CPoint contstructor with default value(0,0) is called.
+CPoint contstructor with default value(0,0) is called.
+CRectangle contstructor with (int,int,int,int) is called.
+# Define rect4 ######
+CPoint copy contstructor is called.
+CPoint copy contstructor is called.
+CRectangle copy contstructor is called.
+# Calculate area ######
+rect1面积为0
+rect2面积为200
+rect3面积为50
+rect4面积为200
