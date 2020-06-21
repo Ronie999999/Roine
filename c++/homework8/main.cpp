@@ -1,6 +1,3 @@
-//
-// Created by YX-ASUS on 14/4/2020.
-//
 
 #include  "iostream"
 using  namespace  std;

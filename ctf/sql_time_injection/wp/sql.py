@@ -228,9 +228,9 @@ class TableDetails: #爆全部信息
                     break
 
 
-a = Database(url="http://101.200.32.147/index.php?id=")
+# a = Database(url="http://101.200.32.147/index.php?id=")
 # a = Database(url="http://127.0.0.1/sql_time/index.php")
-a.start()
+# a.start()
 # b = TableInformation(url="http://172.81.251.91:9999/index.php", database_name="flag")
 # b.start()
 # c = TableDetails(url="http://172.81.251.91:9999/index.php", database_name="flag", table_name="flag")
