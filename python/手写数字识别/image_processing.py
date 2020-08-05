@@ -1,6 +1,8 @@
 import PIL.Image
 import matplotlib.pyplot
 import numpy
+
+
 def process(file_path):
     img = PIL.Image.open(file_path).convert('L')
     if img.size[0] != 28 or img.size[1] != 28:
