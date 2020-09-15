@@ -1,7 +1,0 @@
-services:
-  question_name:sql_time_injection
-    build: .
-    image: 172.18.153.191:5000/sql_time_injection
-    ports: ['80']
-    tty: true
-version: '3'
